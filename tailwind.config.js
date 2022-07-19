@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
+  darkMode: "class",
   theme: {
     fontFamily: {
       sans: ["Maven Pro", "sans-serif"],
@@ -24,6 +25,10 @@ module.exports = {
       container: {
         center: true,
         padding: "1rem",
+      },
+      screens: {
+        xl: "1124",
+        "2xl": "1124px",
       },
     },
   },
